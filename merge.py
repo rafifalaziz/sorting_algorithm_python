@@ -1,32 +1,3 @@
-def selection(arr):
-  min = 9999999
-  indexMin = None
-  indexArr = 0
-  i = 0
-  while(indexArr < len(arr)-1):
-    if(arr[i]<min):
-      min = arr[i]
-      indexMin = i
-    if(i == len(arr)-1):
-      temp = arr[indexArr]
-      arr[indexArr] = arr[indexMin]
-      arr[indexMin] = temp
-      min = 9999999
-      indexArr+=1
-      i=indexArr
-    i+=1
-  return arr
-
-def bubble(arr):
-  sortedIndex = len(arr)-1
-  for i in range(len(arr)):
-    for j in range(sortedIndex):
-      if(arr[j]>arr[j+1]):
-        arr[j], arr[j+1] = arr[j+1], arr[j]
-    sortedIndex-=1
-    print(arr)
-  return arr
-
 def merge(arr):
   L = [{"array":arr, "status":False}]
   R = []
