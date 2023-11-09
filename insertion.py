@@ -1,3 +1,4 @@
+# this insertion looping solved with approach of using linked list structure data instead of iteration using array
 class Node:
   def __init__(self, val):
     self.next = None

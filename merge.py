@@ -1,3 +1,5 @@
+# this sorting solved with approach of using stack instead of using recursion
+
 def merge(arr):
   L = [{"array":arr, "status":False}]
   R = []

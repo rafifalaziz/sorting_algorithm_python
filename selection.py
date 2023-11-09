@@ -1,3 +1,4 @@
+# ordinary approach
 def selection(arr):
   min = 9999999
   indexMin = None

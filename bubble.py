@@ -1,3 +1,5 @@
+# this approach using nested looping
+
 def bubble(arr):
   sortedIndex = len(arr)-1
   for i in range(len(arr)):
